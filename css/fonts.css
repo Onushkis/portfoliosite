@@ -1,0 +1,26 @@
+/*==================== GOOGLE FONTS ====================*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+
+/*----------------------Poppins*/
+
+/*----------------------Poppins-Regular*/
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url("/fonts/Poppins-Regular.ttf");
+}
+
+/*----------------------Poppins-Medium*/
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url("/fonts/Poppins-Medium.ttf");
+}
+
+/*----------------------Poppins-Bold*/
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url("/fonts/Poppins-Bold.ttf");
+}
