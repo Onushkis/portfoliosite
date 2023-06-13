@@ -124,6 +124,12 @@ a {
 img {
   max-width: 100%;
   height: auto;
+  border-radius: 25px;
+}
+
+.skills__img{
+  margin-top: 25%;
+  margin-left: 2em;
 }
 
 /*==================== REUSABLE CSS CLASSES ====================*/
@@ -738,8 +744,15 @@ img {
   border-radius: .5rem;
   justify-self: center;
   padding:0.5em;
+  cursor: pointer;
+  border-radius: 25px;
 }
 
+.portfolio__img:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.1);
+}
 .portfolio__title {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-5);
@@ -1135,6 +1148,7 @@ img {
   }
   .about__img {
     width: 350px;
+    border-radius: 25px;
   }
   .about__description {
     text-align: initial;
